@@ -652,3 +652,15 @@ section {
         left: 50%;
     }
 }
+@media only screen and (orientation:landscape) {
+
+
+ section {
+    height: 100%;
+    }
+
+    .con_box {
+        border: none;
+    }
+
+}
