@@ -5,6 +5,8 @@
     border: none;
     box-sizing: border-box;
     cursor: pointer;
+    transition: all 1s;
+    -webkit-tap-highlight-color: transparent;
 
 }
 
@@ -495,6 +497,10 @@ section {
         height: 100%;
     }
 
+    .pic img{
+        transition: 0.5s;
+        filter: grayscale(0);
+    }
 
     .intro {
         padding: 50px 10px 10px 10px;
@@ -658,7 +664,9 @@ section {
  section {
     height: 100%;
     }
-
+    .contacts{
+        height: 90vh;
+    }
     .con_box {
         border: none;
     }
